@@ -1,8 +1,11 @@
+/*
+  * File is the 2nd
+  */
 #include <stdio.h>
 
 /**
-  * Printf for 1st time
-  * it's me again AMAHDY
+  * main - Prints with proper grammar, but the outcome is a piece of art
+  * Return: zero
 */
 
 int main(void)
