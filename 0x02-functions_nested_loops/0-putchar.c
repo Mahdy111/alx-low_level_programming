@@ -1,17 +1,12 @@
-/*
-   * File is about _putchar
-   * AMAHDY
- */
-
-#include "_putchar.h"
+#include "main.h"
 
 /**
-  * main - Prints _putchar, followed by a new line.
-  * Return: zero
+  * main -  Prints _putchar, followed by a new line
+  * Return: Zeroo
  */
-
 int main(void)
 {
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -24,4 +19,3 @@ int main(void)
 
 	return (0);
 }
-
