@@ -11,7 +11,7 @@ char *cap_string(char *in)
 
 	char chars[] = {' ', ',', ';', '.', '!',
 			 '?', '"', '(', ')', '{', '}',  '\t', '\n', '\0'};
-	change = 29;
+	change = 32;
 
 	for (i = 0; in[i] != '\0'; i++)
 	{
@@ -24,7 +24,7 @@ char *cap_string(char *in)
 		{
 			if (chars[j] == in[i])
 			{
-				change = 29;
+				change = 32;
 				break;
 			}
 		}
