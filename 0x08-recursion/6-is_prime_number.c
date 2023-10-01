@@ -1,20 +1,29 @@
 #include "main.h"
 /**
- * is_prime_number - detect a prime number
- * @n: the value
+ * prime_fun - detect if a vlaue is prime
+ * @i: same as n
+ * @j: calc from 1 to n
  *
- * Return: int is prime, otherwise zero
+ * Return: 1, otherwise 0
+ */
+int prime_fun(int i, int j)
+{
+	if (i == j)
+		return (1);
+	else if (i % j == 0)
+		return (0);
+	return (prime_fun(i, j + 1));
+}
+/**
+ * is_prime_number - detect if n is prime
+ * @n: value num
+ *
+ * Return: 1 otherwise 0
  */
 int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	if (n == 2)
-		return (1);
-	if ((n % 2 == 0) || (n % 3 == 0) || (n % 5 == 0))
-		return (0);
-	else if ((n % 9 == 0) || (n % 7 == 0))
-		return (0);
-	else
-		return (1);
+	return (prime_fun(n, 2));
 }
+
