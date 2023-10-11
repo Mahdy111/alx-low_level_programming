@@ -1,7 +1,7 @@
-#ifndef FUNMACRO_H
-#define FUNMACRO_H
+#ifndef ABSMACRO_H
+#define ABSMACRO_H
 /**
- * File: computes the absolute value of a number x
+ * File: 3-function_like_macro
  * @X: input
  * Desc: header file
  */
