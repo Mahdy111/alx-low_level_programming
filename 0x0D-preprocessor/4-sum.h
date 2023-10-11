@@ -1,9 +1,11 @@
-#ifndef SUMMACRO_H
-#define SUMMACRO_H
+#ifndef FUNMACRO_H
+#define FUNMACRO_H
 /**
- * File: computes the sum of the numbers x and y
+ * File: 4-sum
+ * @x: input
+ * @y: input
  * Desc: header file
  */
-#define SUMMACRO(x, y) (x + y)
+#define SUM(x, y) (x + y)
 
 #endif
