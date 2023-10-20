@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 /**
  * add_node - adds a new node at the beginning of a list_t list
@@ -21,7 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 	}
 	while (*(str + i) != '\0')
 	{
-		a++;
+		i++;
 	}
 
 	new_node->len = i;
