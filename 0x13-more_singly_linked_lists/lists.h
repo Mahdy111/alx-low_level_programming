@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - list of 
+ * struct listint_s - list of prototypes
  * @n: int
  * @next: ptr to node
  *
