@@ -1,7 +1,7 @@
 #ifndef MAINFILE_H
 #define MAINFILE_H
 
-/*
+/**
  * File: main.h
  * Desc: Header file containing prototypes for all functions
  * written in the 0x13-bit_manipulation directory.
